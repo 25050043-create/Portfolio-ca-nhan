@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio cá nhân — giới thiệu, kỹ năng và các dự án nổi bật.">
+  <title>Portfolio | Võ Lê Quang Vinh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Điều hướng chính">
+      <a class="brand" href="#home" aria-label="Portfolio, về đầu trang"><span class="brand-mark">V.</span><span>Trang Đầu<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Giới thiệu</a><a href="#skills">Kỹ năng</a><a href="#journey">Hành trình</a><a href="#projects">Dự án</a><a href="#contact" class="nav-cta">Liên hệ <span>↗</span></a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Bật chế độ tối" title="Đổi giao diện">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> XIN CHÀO, MÌNH LÀ</p>
+        <h1>Võ Lê Quang Vinh<span class="accent">.</span><br><em>Người tạo nên</em><br>những trải nghiệm số.</h1>
+        <p class="hero-text">Sinh viên <strong>năm 2 Trường đại học Bình Dương</strong>, Mình 18 tuổi, hiện đang sống cuộc sống độc thân - tập trung vào việc học tập và phát triển bản thân trong lĩnh vực công nghệ thông tin..</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Khám phá dự án <span>↗</span></a><a class="text-link" href="#about">Tìm hiểu về mình <span>↓</span></a></div>
+        <div class="hero-meta"><span class="status-dot"></span> Sẵn sàng học hỏi & cộng tác <span class="meta-separator">/</span> TP. Hồ Chí Minh</div>
+      </div>
+      <div class="hero-art reveal" aria-label="Minh họa chân dung trừu tượng">
+        <div class="art-backdrop"></div><div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+        <div class="portrait-card"><div class="portrait-top"><span>PORTFOLIO</span><span>2026</span></div>
+          <div class="portrait-illustration"><img src="images/pictureonly.jpg" alt="Portfolio Avatar" style="width: 100%; height: 100%; object-fit: cover; object-position: right center; display: block;"></div>
+          <div class="portrait-bottom"><span>DESIGN MINDED</span><span>✳</span><span>CODE CURIOUS</span></div>
+        </div>
+        <div class="floating-note note-top"><span class="note-icon">✳</span><span>Thoughtful<br>by design</span></div>
+        <div class="floating-note note-bottom"><span class="note-number">02</span><span>Projects<br>to explore</span></div>
+        <span class="decor-star star-one">✳</span><span class="decor-star star-two">✦</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> CUỘN ĐỂ KHÁM PHÁ</a>
+    </section>
+
+    <section class="about section section-tint" id="about">
+      <div class="container about-grid">
+        <div class="section-heading reveal"><p class="eyebrow">01 — VỀ MÌNH</p><h2>Một chút tò mò.<br><p></p><em>Rất nhiều ý tưởng.</em></h2></div>
+        <div class="about-content reveal"><p class="lead">Mình tin rằng một sản phẩm số tốt không chỉ đẹp — mà còn khiến mọi thứ trở nên dễ hiểu và dễ sử dụng hơn.</p><p>Hiện mình đang học cách kết hợp tư duy thiết kế với nền tảng lập trình web. Mình thích quan sát những chi tiết nhỏ, thử nghiệm nhiều cách giải quyết và không ngừng hoàn thiện sản phẩm qua phản hồi thực tế.</p>
+          <div class="about-facts"><div><span class="fact-label">ĐANG HỌC</span><strong>Thiết kế Web</strong></div><div><span class="fact-label">QUAN TÂM</span><strong>UI/UX · AI</strong></div><div><span class="fact-label">NGUYÊN TẮC</span><strong>Đơn giản có chủ đích</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading centered reveal"><p class="eyebrow">02 — BỘ CÔNG CỤ</p><h2>Kỹ năng & <em>thế mạnh</em></h2><p class="section-intro">Những kỹ năng mình đang sử dụng và tiếp tục trau dồi qua từng dự án.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-icon">⌘</span><h3>Front-end</h3><p>Xây dựng giao diện rõ ràng, có cấu trúc và tương thích nhiều thiết bị.</p><div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">✳</span><h3>UI & Visual</h3><p>Chú trọng phân cấp thị giác, khoảng trắng, màu sắc và tính nhất quán.</p><div class="skill-tags"><span>Figma</span><span>Layout</span><span>Typography</span></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">↗</span><h3>Problem solving</h3><p>Chia nhỏ vấn đề, tìm hiểu nguyên nhân và cải tiến dựa trên phản hồi.</p><div class="skill-tags"><span>Tư duy logic</span><span>Research</span><span>Teamwork</span></div></article>
+      </div>
+    </section>
+
+    <section class="section journey section-tint" id="journey">
+      <div class="container journey-grid"><div class="section-heading reveal"><p class="eyebrow">03 — HÀNH TRÌNH</p><h2>Học hỏi để<br><em>tiến xa hơn.</em></h2><p class="section-intro">Một vài cột mốc tạo nên nền tảng và cách mình làm việc.</p></div>
+        <div class="timeline reveal">
+          <article class="timeline-item"><span class="timeline-date">2025 — HIỆN TẠI</span><div><h3>Ngành Công nghệ thông tin</h3><p>Trường Đại học Bình Dương</p><p class="muted">Tập trung vào lập trình web, cấu trúc dữ liệu và phát triển sản phẩm số.</p></div></article>
+          <article class="timeline-item"><span class="timeline-date">2026</span><div><h3>Dự án học tập & làm việc nhóm</h3><p>Thực hành xây dựng website responsive</p><p class="muted">Rèn luyện chia task, quản lý source code và trình bày ý tưởng.</p></div></article>
+          <article class="timeline-item"><span class="timeline-date">ĐANG PHÁT TRIỂN</span><div><h3>Chứng chỉ & hoạt động</h3><p>Chưa có chứng chỉ chính thức</p><p class="muted">Chủ động học thêm qua tài liệu, bài tập và dự án cá nhân.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="projects-heading reveal"><div class="section-heading"><p class="eyebrow">04 — DỰ ÁN CHỌN LỌC</p><h2>Những điều mình<br><em>đã tạo ra.</em></h2></div><div class="project-filters" role="group" aria-label="Lọc dự án"><button class="filter-btn active" data-filter="all">Tất cả <span>02</span></button><button class="filter-btn" data-filter="design">Thiết kế</button><button class="filter-btn" data-filter="code">Lập trình</button></div></div>
+      <div class="projects-grid">
+        <article class="project-card project-large reveal" data-category="design">
+          <div class="project-visual visual-shop"><div class="mock-browser"><div class="browser-bar"><i></i><i></i><i></i><span>slowstudio.design</span></div><div class="shop-layout"><div class="shop-copy"><small>OBJECTS FOR SLOW LIVING</small><strong>Make room<br>for calm.</strong><span>Thoughtful pieces for everyday rituals.</span><b>EXPLORE COLLECTION ↗</b></div><div class="shop-product"><div class="vase vase-one"></div><div class="vase vase-two"></div><div class="vase vase-three"></div></div></div></div></div>
+          <div class="project-info"><div><p class="project-type">01 / UI DESIGN</p><h3>Slow Studio — Cửa hàng phong cách sống</h3><p>Thiết kế trang chủ thương mại điện tử với bố cục thoáng, bảng màu tự nhiên và trải nghiệm xem sản phẩm trực quan.</p></div><a class="project-link" href="#contact" aria-label="Hỏi thêm về dự án Slow Studio">↗</a></div><div class="skill-tags"><span>Figma</span><span>UI Design</span><span>Responsive concept</span></div>
+        </article>
+        <article class="project-card reveal" data-category="code">
+          <div class="project-visual visual-task"><div class="task-window"><div class="task-header"><span>little steps</span><span>✳</span></div><p class="task-date">MONDAY, 12 OCTOBER</p><h4>Today, gently.</h4><div class="task-row done"><span>✓</span> Plan the week</div><div class="task-row"><span></span> Build portfolio</div><div class="task-row"><span></span> Take a little break</div><div class="task-progress"><span></span></div><small>1 OF 3 COMPLETED</small></div></div>
+          <div class="project-info"><div><p class="project-type">02 / FRONT-END</p><h3>Little Steps — Trình quản lý việc nhỏ</h3><p>Ứng dụng checklist tối giản giúp theo dõi công việc, đánh dấu hoàn thành và duy trì nhịp làm việc tích cực.</p></div><a class="project-link" href="#contact" aria-label="Hỏi thêm về dự án Little Steps">↗</a></div><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact"><div class="container contact-grid"><div class="section-heading reveal"><p class="eyebrow">05 — KẾT NỐI</p><h2>Cùng tạo ra điều<br><em>có ý nghĩa nhé.</em></h2><p class="section-intro">Bạn có một ý tưởng, cơ hội thực tập hoặc chỉ muốn trò chuyện về thiết kế và công nghệ? Mình rất vui được lắng nghe.</p><div class="contact-details"><a href="https://bdu.edu.vn/">25050043@student.bdu.edu.vn ↗</a><span>TP. Hồ Chí Minh, Việt Nam</span><div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div></div>
+      <form class="contact-form reveal" id="contactForm" novalidate><div class="form-heading"><span>GỬI MỘT LỜI NHẮN</span><span>✳</span></div><label for="name">Tên của bạn</label><input id="name" name="name" type="text" placeholder="Ví dụ: Nguyên Phấn Đông" required minlength="2"><small class="error-message" id="nameError"></small><label for="email">Email liên hệ</label><input id="email" name="email" type="email" placeholder="mailcuaban@gmail.com" required><small class="error-message" id="emailError"></small><label for="message">Lời nhắn</label><textarea id="message" name="message" rows="4" placeholder="Chia sẻ một chút về điều bạn đang nghĩ..." required minlength="10"></textarea><small class="error-message" id="messageError"></small><button class="button button-primary submit-button" type="submit">Kiểm tra & gửi lời nhắn <span>↗</span></button><p class="form-status" id="formStatus" aria-live="polite"></p><p class="form-footnote">Demo giao diện: biểu mẫu kiểm tra dữ liệu trên trình duyệt, chưa kết nối máy chủ gửi email.</p></form>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#top"><span class="brand-mark">V.</span><span>Trang cuối<span class="brand-dot">.</span></span></a><span>Được tạo bằng nỗi sợ deadline và rất nhiều cà phê.</span><span>© <span id="year"></span> Võ Lê Quang Vinh</span><a class="back-top" href="#top">Về đầu trang ↑</a></div></footer>
+</body>
+</html>
